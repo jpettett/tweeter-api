@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jpettett/tweeter-api#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "method-override": "^3.0.0",
     "mongoose": "^5.8.11",
     "nodemon": "^2.0.2"
   }
