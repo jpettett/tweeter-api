@@ -7,10 +7,10 @@ const app = express();
 
 app.use(express.json());
 
+app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 app.use('/tweets', tweetController);
-app.use(cors());
 
 app.listen(4000, () => {
 	console.log('app listening on 4000');
